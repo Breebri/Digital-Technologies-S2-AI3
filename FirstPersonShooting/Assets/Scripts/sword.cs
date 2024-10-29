@@ -35,7 +35,8 @@ public class sword : MonoBehaviour
     void slash()
     {
 
-        //animation trigger here
+        AudioSource swordAS = GetComponent<AudioSource>();
+        swordAS.Play();
 
         RaycastHit hit;
 
